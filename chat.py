@@ -17,7 +17,7 @@ from IPython.display import Markdown
 
 
 os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("AIzaSyBzH0N0IQm8GaZybyCyyuz9Y6qSjlUTuFs"))
+genai.configure(api_key="app.py")
 
 ## Function to load OpenAI model and get respones
 model = genai.GenerativeModel('gemini-pro')
